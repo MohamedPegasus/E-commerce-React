@@ -1,0 +1,77 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2rem ;
+   
+}
+.landing-oriental{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.landing-oriental h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: rgba(86, 80, 80, 0.176);
+    border-radius: 10%;
+}
+.landing-oriental h1:hover {
+    box-shadow: 0 15px 10px rgb(122, 201, 142);
+    background-color: rgba(4, 4, 4, 0.023);
+}
+.landing-oriental-meals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.landing-oriental-meals-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+.landing-oriental-meals-type h1{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgba(86, 80, 80, 0.176);
+    border-radius: 10%;
+    width: 250px;
+    height: 50px;
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.landing-oriental-meals-type h1:hover{
+    box-shadow: 0 15px 10px rgb(122, 201, 142);
+    background-color: rgba(4, 4, 4, 0.023);
+}
+.landing-oriental-meals-contain Button{
+    margin: 0.5rem;
+}
+.landing-oriental-meals-contain{
+    cursor: pointer;
+    border-radius: 15px;
+        background-color: #b3adadfb;
+        transform: scale(1, 1);
+        transition: transform 0.5s ease;
+        transition-delay: 0.10s;
+        margin: 2rem 0;
+        
+}
+.landing-oriental-meals-contain:hover{
+    box-shadow: 5px 10px 10px rgb(122, 201, 142);
+    transform: scale(1.01, 1.01)
+}
+
+.landing-oriental-meals-contain img{
+    width: 250px;
+    height: 300px;
+    margin-top: 0.5rem;
+    padding: 10px;
+    border-radius: 10%;
+}
