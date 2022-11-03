@@ -33,9 +33,9 @@ function Header() {
             <p>CRAZY Food</p>
           </Navbar.Brand>
           <Nav className="ms-auto links">
-            <Link className={darkMode? 'text-dark-primary': 'text-light-primary'} to="/">Home</Link>
+            <Link className={darkMode? 'text-dark-primary': 'text-light-primary'} to="/E-commerce-React">Home</Link>
             <Link className={darkMode? 'text-dark-primary': 'text-light-primary'}
-            to="/pricing">  <BiCart size='2rem' />
+            to="/E-commerce-React/pricing">  <BiCart size='2rem' />
             {!isEmpty && <span style={{position:'relative', left:'-21px',top:'-18px'}}>{totalItems}</span>}My Cart </Link>
             <Nav.Link className={darkMode? 'text-dark-primary': 'text-light-primary'}
             onClick={()=>setDatkMode(!darkMode)}>

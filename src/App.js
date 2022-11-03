@@ -6,7 +6,7 @@ import {CartProvider} from 'react-use-cart'
 import Footer from './components/Footer'
 import Home from './components/pages/Home'
 import Pricing from './components/pages/Pricing'
-import {BrowserRouter as Router, Routes as Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router,  Routes as Switch, Route} from 'react-router-dom'
 import { useThemeHook} from './components/ThemeProvider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Data from './components/Data'
@@ -23,8 +23,8 @@ function App() {
       <Header />
       <Features />
       <Switch>
-        <Route exact path='/' element={<Home />}/>
-        <Route path='/pricing' element={<Pricing />}/>
+          <Route exact path='/E-commerce-React' element={<Home />}/>
+          <Route path='/E-commerce-React/pricing' element={<Pricing />}/>
       </Switch>
       <Footer />
       </Router>
